@@ -16,13 +16,13 @@
     font-family: 'Barlow Semi Condensed';
     font-weight: 500;
     src: url("/assets/fonts/BarlowSemiCondensed/BarlowSemiCondensed-Medium.ttf") format("truetype");
-    font-display: swap;
+    font-display: optional;
 }
 @font-face {
     font-family: 'Barlow Semi Condensed';
     font-weight: 600;
     src: url("/assets/fonts/BarlowSemiCondensed/BarlowSemiCondensed-SemiBold.ttf") format("truetype");
-    font-display: swap;
+    font-display: optional;
 }
 
 * {
