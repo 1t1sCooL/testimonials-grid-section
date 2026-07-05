@@ -1,0 +1,46 @@
+:root {
+    --Purple50: hsl(260, 100%, 95%);
+    --Purple300: hsl(264, 82%, 80%);
+    --Purple500: hsl(263, 55%, 52%);
+    --White: hsl(0, 0%, 100%);
+    --Grey100: hsl(214, 17%, 92%);
+    --Grey200: hsl(0, 0%, 81%);
+    --Grey400: hsl(224, 10%, 45%);
+    --Grey500: hsl(217, 19%, 35%);
+    --DarkBlue: hsl(219, 29%, 14%);
+    --Black: hsl(0, 0%, 7%);
+    --Background: hsl(210, 46%, 95%);
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    font-weight: 500;
+    src: url("/assets/fonts/BarlowSemiCondensed/BarlowSemiCondensed-Medium.ttf") format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    font-weight: 600;
+    src: url("/assets/fonts/BarlowSemiCondensed/BarlowSemiCondensed-SemiBold.ttf") format("truetype");
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+    color: var(--Grey500);
+    background-color: var(--Background);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    min-height: 100vh;
+
+    margin: 0;
+    padding: 2rem;
+}
